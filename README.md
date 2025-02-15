@@ -1,0 +1,1 @@
+A terminal-based habit tracker in Rust 🦀
