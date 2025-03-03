@@ -17,7 +17,8 @@ pub struct Args {
 #[derive(Subcommand, Debug)] // Subcommand trait generates code to parse subcommands and their flags
 pub enum Commands {
     /// Add a new habit
-    Add { // This is a variant!! (that carries values with it)
+    Add { // TODO: why this not pub?
+        // This is a variant!! (that carries values with it)
         #[arg(short, long, help = "Name of the habit")]
         goal: String,
 
